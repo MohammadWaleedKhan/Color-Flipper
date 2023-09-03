@@ -1,0 +1,89 @@
+body{
+    color: #333;
+}
+.nav-center{
+    /* height: 50px; */
+    width: 100%;
+    background: #dedede;
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.nav-center h4{
+    margin-bottom: 0px;
+}
+.cover h2 a{
+        cursor: pointer !important;
+        text-decoration: none !important;
+}
+
+.nav-link{
+    text-align: end;
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px !important;
+    justify-content: end;
+}
+
+.nav-link li{
+    padding: 0px 5px;
+    text-align: end;
+    cursor: pointer !important;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer !important;
+}
+.cover{
+    padding: 10px;
+    background: #000000;
+    border: 1px solid #0a51c4;
+    text-align: center;
+    border-radius: 6px;
+}
+.cover h2{
+   color: #0a51c4;
+   font-size: 35px;
+   font-weight: 600;
+}
+.card{
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 6px;
+}
+
+.buttonColor{
+    text-align: center;
+}
+
+.colorButton{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #0a51c4;
+    color: #FFF;
+    background: #0a51c4;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 250px;
+}
+.colorButton:hover{
+    border: 1px solid #0a51c4;
+    color: #FFF;
+    background: #000;
+}
+
+input[type="radio"]{
+    appearance: none;
+}
+
+input[type="radio"]:checked + label{
+    color: #0a51c4;
+}
